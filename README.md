@@ -1,7 +1,7 @@
 # Implement Factory Design Pattern for Database Connection
 
 ## Problem Statement
-You are building an application with which you need to connect a Database. Depending on the type of dabase (e.g., MySQL, Postgre SQL, Mongo DB), different type of database objects are required. You need a way to create database object without explicitly specifying their classes, ensuring the application is open for future database types.
+You are building an application with which you need to connect a Database. Depending on the type of database (e.g., MySQL, Postgre SQL, Mongo DB), different type of database objects are required. You need a way to create database object without explicitly specifying their classes, ensuring the application is open for future database types.
 
 Your task is to implement the Factory pattern to create Database objects. The Factory pattern provides a way to create objects without exposing the instantiation logic, allowing for easy addition of new database types.
 
