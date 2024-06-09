@@ -1,4 +1,4 @@
-package com.example.databaseconnectionsolution;
+package com.example.databaseconnection;
 
 public class DatabaseFactory {
     public static Database createDatabase(DatabaseType databaseType, String databaseName) {

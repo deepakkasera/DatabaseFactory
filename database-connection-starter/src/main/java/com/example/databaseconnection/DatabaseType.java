@@ -1,4 +1,4 @@
-package com.example.databaseconnectionsolution;
+package com.example.databaseconnection;
 
 public enum DatabaseType {
     MYSQL,

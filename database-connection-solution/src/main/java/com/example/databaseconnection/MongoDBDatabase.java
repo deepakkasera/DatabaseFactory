@@ -1,4 +1,4 @@
-package com.example.databaseconnectionsolution;
+package com.example.databaseconnection;
 
 public class MongoDBDatabase extends Database {
     public MongoDBDatabase(String databaseName) {
