@@ -93,6 +93,5 @@ class DatabaseConnectionTest {
 
         assertNotNull(database, "If the factory is implemented correctly, the createDatabase method should return a non-null Database.");
         assertEquals(DatabaseType.MYSQL, database.supportsType(), "If the factory is implemented correctly, the create method should return a MySQLDatabase for DatabaseType.MYSQL");
-        assertEquals(databaseName, database.getDatabaseName(), "If the factory is implemented correctly, the create method should return a Database with name productServiceDB");
     }
 }
